@@ -8,22 +8,22 @@ export interface NavbarItemType {
 export const NavbarArray: Array<NavbarItemType> =[
     {
         label:'Female',
-        href:'/female',
+        href:'/Category/female',
         isDropDown:false
     },
     {
         label:'Male',
-        href:'/male',
+        href:'/Category/male',
         isDropDown:false
     },
     {
         label:'Kids',
-        href:'/Kids',
+        href:'/Category/kids',
         isDropDown:false
     },
     {
         label:'All Products',
-        href:'/products',
+        href:'/Products',
         isDropDown:false
     }
 ]
