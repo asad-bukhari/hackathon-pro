@@ -13,8 +13,9 @@ export const Navbar = () => {
 
         <ul className="flex space-x-4 font-medium text-lg">
           {NavbarArray.map((item:NavbarItemType, index:number):any=>(
+            
             <li>
-              <Link href={item.href}>{item.label}</Link>
+              <Link key={123} href={item.href}>{item.label}</Link>
             </li>
 
           ))}
