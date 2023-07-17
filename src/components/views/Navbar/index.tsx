@@ -12,13 +12,10 @@ export const Navbar = () => {
          </div>
 
         <ul className="flex space-x-4 font-medium text-lg">
-          {NavbarArray.map((item:NavbarItemType, index:number):any=>(
-            
-            <li>
-              <Link key={item.key} href={item.href}>{item.label}</Link>
-            </li>
-
-          ))}
+         <li><Link href={'/Category/female'}> Female </Link></li>
+         <li><Link href={'/Category/male'}>Male </Link> </li>
+         <li><Link href={'/Category/kids'}>Kids </Link> </li>
+         <li><Link href={'/Products'}>All Products </Link></li>
         </ul>
         
         <div className="border flex items-center text-gray-600 px-3 rounded-md">
