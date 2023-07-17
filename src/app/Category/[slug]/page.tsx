@@ -18,7 +18,13 @@ const result= GetProdcutsByCategory(params.slug);
     <div className="flex justify-evenly mt-16 gap-3 flex-wrap">
       {
         result.length>0 ? (result.map((items)=>(
-          <ProductCard key={items.id} title={items.name} price={items.price} img={items.image} category={items.category}/>
+          <ProductCard key={items.id} 
+          title={items.name} 
+          price={items.price}
+           img={items.image} 
+           category={items.category}
+           id={items.id}
+           />
         ))): <p>Products not found</p>
       }
     </div>

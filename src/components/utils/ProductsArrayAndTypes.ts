@@ -24,35 +24,35 @@ export const ProductsArray:Array<Productstypes> =[
     image:ProductImg
 },
     {
-    id:1,
+    id:3,
     name:'Product 3',
     price: 75,
     category:'male',
     image:ProductImg
 },
     {
-    id:1,
+    id:4,
     name:'Product 4',
     price: 75,
     category:'kids',
     image:ProductImg
 },
     {
-    id:1,
+    id:5,
     name:'Product 5',
     price: 75,
     category:'male',
     image:ProductImg
 },
     {
-    id:1,
+    id:6,
     name:'Product 6',
     price: 75,
     category:'female',
     image:ProductImg
 },
     {
-    id:1,
+    id:7,
     name:'Product 7',
     price: 75,
     category:'kids',
