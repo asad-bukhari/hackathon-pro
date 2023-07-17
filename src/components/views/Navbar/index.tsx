@@ -15,7 +15,7 @@ export const Navbar = () => {
           {NavbarArray.map((item:NavbarItemType, index:number):any=>(
             
             <li>
-              <Link key={item.href} href={item.href}>{item.label}</Link>
+              <Link key={item.key} href={item.href}>{item.label}</Link>
             </li>
 
           ))}
