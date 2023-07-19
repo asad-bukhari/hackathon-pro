@@ -1,22 +1,29 @@
-// import React from 'react'
+import Wrapper1 from "@/components/shared/Wrapper1";
 
-// export const Newslatter = () => {
-//   return (
-//     <div className='relative text-center space-y-4 min-h-[40vh] md:h-[70vh] lg:min-h[50rem] flex flex-col justify-center items-center text-gray-800'>
-//         <h6 className='absolute text-6xl md:text-[9rem] font-bold text-gray-200 text-center mx-auto -z-50'>
-//            Newsletter 
-//         </h6>
-//         <h6 className='text-3xl md:text-4xl font-bold '>
-//             Subcribe Our Newsletter
-//         </h6>
-//         <p className='max-w-[16rem] text-lg font-medium'>
-//             Get the latest information and promo offer directly
+const Newsletter = () => {
+  return (
+    <Wrapper1>
+      <div className="flex w-full justify-center items-center">
+        <div className="flex flex-col justify-between items-center w-full gap-y-5 my-20 relative">
+          <h3>Subscribe Our Newsletter</h3>
+          <p>Get the latest information and promo offers directly</p>
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-3 w-full">
+            <input
+              type="email"
+              placeholder="Input email address"
+              className="px-2 border border-black text-sm py-2 lg:w-[30%] sm:w-[40%] w-full"
+            />
+            <button className="text-white  bg-[#212121] px-8 py-2">
+              Get Started
+            </button>
+          </div>
+          <div className="absolute bs:text-center w-full font-bold text-[4rem] bs:text-[4.8rem] sm:[6.2rem] lg:text-[7.5rem]  tracking-widest -z-[10] text-[#212121]/5 overflow-hidden">
+            Newsletter
+          </div>
+        </div>
+      </div>
+    </Wrapper1>
+  );
+};
 
-//         </p>
-//         <div className='flex gap-4 flex-wrap items-center justify-center'>
-//         <input className='border border-gray-600 py-1 px-2 md:px-4 flex flex-grow w-80' type="text" placeholder='Input email address' />
-//         <button className='text-white bg-gray-900 border border-gray-500 px-4 py-2'> Get Started </button>
-//         </div>
-//     </div>
-//   )
-// }
+export default Newsletter;

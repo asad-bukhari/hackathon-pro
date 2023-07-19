@@ -1,5 +1,7 @@
 import { Hero } from '@/components/views/Hero'
+import Newsletter from '@/components/views/NewsLatter'
 import ProductsList from '@/components/views/ProductsList'
+import Promotions from '@/components/views/Promotions'
 
 // import Jewellery from '@/components/views/Jewellery'
 // import { Newslatter } from '@/components/views/NewsLatter'
@@ -11,8 +13,9 @@ export default function Home() {
    <div>
     <Hero/>
     <ProductsList/>
-    {/* <Jewellery/>
-    <Newslatter/> */}
+    <Promotions/>
+    {/* {/* <Jewellery/> */}
+    <Newsletter/>
    </div>
   )
 }
